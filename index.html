@@ -13,9 +13,12 @@
         <h2 id="count-el">0</h2>
         <button id="add" onclick="addOne()">ADD</button>
         <button id="save" onclick="savingCount()">SAVE</button>
-        <h3 id="save-el">Previous Entries: </h3>
-        <button id="clear" onclick="clearBoard()">CLEAR</button>
+        <h3>Previous Entries: <span id="save-el"></span></h3>
+        <button id="displaySum" onclick="displaySum()">Total Count</button>
+        <h2 id="sum-el">0</h2>
     </div>
+    <button id="clear" onclick="clearBoard()">CLEAR</button>
+    
     <script src="index.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@ h2  {
     margin-bottom: 20px;
 }
 
+
 h4 {
    
     font-weight: bold;
@@ -40,17 +41,36 @@ button {
     color: white;
     font-weight: bold;
     width: 200px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 10px;
     border-radius: 5px;
 }
+
+#count-el {
+    color: darkred;
+}
+
 #add {
     background: darkred;
 }
+
 #save {
-    background: green;
+    background: rgb(46, 175, 46);
+}
+
+#save-el {
+    color: rgb(46, 175, 46)
+}
+
+#displaySum {
+    background: rgb(66, 132, 154);
+}
+
+#sum-el {
+    color: rgb(46, 175, 46);
 }
 
 #clear {
     background: yellowgreen;
 }
+
+ 
